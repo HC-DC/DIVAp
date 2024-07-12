@@ -4,7 +4,7 @@ from astropy.io import fits
 import numpy as np
 import pandas as pd
 
-def save_hcifits_files(path, name):
+def explode_hcifits(path, name):
 
     # read and save hcifits file
     h = HCIFits.read(path + f"/{name}")
@@ -149,10 +149,3 @@ def save_hcifits_files(path, name):
     })
     # Save the detection limit table
     df.to_csv(path + '/DETECTION_LIMIT.csv', index=False)
-
-def main():
-    path = '/Users/herve/Documents/recherche/tmp/'
-    hcifits_name = 'HIP11360_DC_id_567465.fits'
-    save_hcifits_files(path, hcifits_name)
-if __name__ == "__main__":
-    main()

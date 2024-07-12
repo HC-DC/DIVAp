@@ -1,0 +1,1 @@
+# open_diva_hcifits/__init__.py
