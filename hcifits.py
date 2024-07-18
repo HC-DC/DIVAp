@@ -1,3 +1,4 @@
+# @Author: Yannick Roehlly
 # Should we keep the headers of the cube ?
 # IMPORTANT: Saving a read FITS file will not work because of headers.
 import logging

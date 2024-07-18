@@ -1,3 +1,5 @@
+# @Author: Hervé Le Coroller
+
 from hcifits import HCIFits
 from astropy.table import Table
 from astropy.io import fits
